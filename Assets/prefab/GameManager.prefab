@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3068948895920672944
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3068948895920672950}
+  - component: {fileID: 3068948895920672951}
+  - component: {fileID: 3068948895920672949}
+  - component: {fileID: 3068948895920672948}
+  - component: {fileID: 1294786084}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3068948895920672950
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3068948895920672944}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.30687088, y: 0.49312153, z: -33.94336}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3068948895920672951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3068948895920672944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e8882a9f02573c45b7050468dfdd355, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaveCountDown: {fileID: 0}
+  blueGuy: {fileID: 5828064823268351388, guid: 50cf2e95ed0c0264d9d5509a9d437f29, type: 3}
+  croco: {fileID: 2604688209792824687, guid: eadd4628299125f4b896a181e3374dad, type: 3}
+  grenouille: {fileID: 2995030859878106335, guid: 5e6f46c923d99d9438a857ae6cdb0795,
+    type: 3}
+  slim: {fileID: 6144864045206136252, guid: a4c94426c7aa437459cf7d06ca43343c, type: 3}
+  redguy: {fileID: 8229771433032062918, guid: 34f3073b092eada4ba93546e4aeac0c5, type: 3}
+  TempsEntreWave: 20
+  StartPoint: {fileID: 0}
+  TempsEntreEnemyInAWave: 0.2
+--- !u!114 &3068948895920672949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3068948895920672944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 942075fcebb538247a2fa9fe4282a399, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeuI: {fileID: 0}
+  turrets:
+  - {fileID: 3611501571274499186, guid: 6d6879371a12cf6489b9a9423bf7c396, type: 3}
+  - {fileID: 304251139125504380, guid: 5410ee9b8e71f31449a8550e3f92a1bb, type: 3}
+  - {fileID: 4006140880939502761, guid: cab12baebf8c9464ba9ca73da9e81d98, type: 3}
+  - {fileID: 8776641393164260433, guid: e3469b53aeb7f1444a2627ce05ff375c, type: 3}
+  - {fileID: 5633377374734703574, guid: a7dabb71252b9994abb4588ee9f50658, type: 3}
+  - {fileID: 4836367530380565804, guid: 2645106a46b093c43a6268ea759703f6, type: 3}
+  - {fileID: 1702749633249836384, guid: b5c6ac0b5b3a1534dacd6db8da2fd6b5, type: 3}
+  - {fileID: 351540103241054207, guid: 0b6d9962e58582b4e804570058915a07, type: 3}
+--- !u!114 &3068948895920672948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3068948895920672944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 029a56945c859fb44a328b170f859656, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartMoney: 100
+  texteMoney: {fileID: 0}
+  startingLifes: 20
+  livesText: {fileID: 0}
+--- !u!114 &1294786084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3068948895920672944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e09d1419dc0dcf6419c435cae24e1a94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blueGuy: {fileID: 5828064823268351388, guid: 50cf2e95ed0c0264d9d5509a9d437f29, type: 3}
+  croco: {fileID: 2604688209792824687, guid: eadd4628299125f4b896a181e3374dad, type: 3}
+  grenouille: {fileID: 2995030859878106335, guid: 5e6f46c923d99d9438a857ae6cdb0795,
+    type: 3}
+  slim: {fileID: 6144864045206136252, guid: a4c94426c7aa437459cf7d06ca43343c, type: 3}
+  redguy: {fileID: 8229771433032062918, guid: 34f3073b092eada4ba93546e4aeac0c5, type: 3}
+  gameOverUI: {fileID: 0}
